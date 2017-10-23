@@ -1,5 +1,7 @@
 import Funciones
 
+//Al iniciar el prgrama se le pide al usuario que ingrese el texto y luego la opcion que quiera ejecutar
+
 print("Inicio del programa")
 print("\n")
 cadena = str(input("Ingrese su texto y presione Enter para continuar: "))
