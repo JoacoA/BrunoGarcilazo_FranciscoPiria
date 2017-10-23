@@ -1,6 +1,7 @@
 #FUNCIONES
 
 # Menu principal inicial del codigo.
+# Contiene todas las funciones básicas del programa indicando teniendo cada función un indice
 def MENU():						#Menu principal definido como funcion para no repetirlo constantemente en el codigo
 	print("\n")
 	print("ESTE ES EL MENU DE OPCIONES, DIGITE EL NÚMERO CORRESPONDIENTE PARA REALIZAR LA OPERACION")
@@ -18,6 +19,7 @@ def MENU():						#Menu principal definido como funcion para no repetirlo constan
 	print("\n")
 
 # Modo Comando, funcion especial del programa.
+#Contiene todas las funciones del Modo Comando
 def ModoComando():				#Modo Comando definido como funcion para no repetirlo constantemente en el codigo
 	print("\n")
 	print("Ingrese el Comando y presione Enter")
@@ -91,6 +93,7 @@ def funcion7(a,b):		#Cifra el parametro a con un cifrado Cesar de desplazamiento
 			c = c + elemento		#Si el caracter analizado no es una letra no se modifica
 	return c
 
+# Proceso inverso al Cifrado Cesar, útil para descifrar codigos encriptados
 def funcion8(a,b):			#Descifra el parametro a con un cifrado Cesar de desplazamiento b
 	abc1 = "abcdefghijklmnñopqrstuvwxyzabcdefghijklmnñopqrstuvwxyz"
 	abc2 = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
