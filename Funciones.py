@@ -1,5 +1,6 @@
 #FUNCIONES
 
+# Menu principal inicial del codigo.
 def MENU():						#Menu principal definido como funcion para no repetirlo constantemente en el codigo
 	print("\n")
 	print("ESTE ES EL MENU DE OPCIONES, DIGITE EL NÚMERO CORRESPONDIENTE PARA REALIZAR LA OPERACION")
@@ -16,6 +17,7 @@ def MENU():						#Menu principal definido como funcion para no repetirlo constan
 	print("9 - Salir")
 	print("\n")
 
+# Modo Comando, funcion especial del programa.
 def ModoComando():				#Modo Comando definido como funcion para no repetirlo constantemente en el codigo
 	print("\n")
 	print("Ingrese el Comando y presione Enter")
@@ -31,10 +33,12 @@ def ModoComando():				#Modo Comando definido como funcion para no repetirlo cons
 	print("'decif x' - Decifra el texto utilizando cifrado Cesar con un desplazamiento x")
 	print("\n")
 
+# Unicamente letras, no muta números o símbolos
 def funcion1(a):     #Transforma todas las letras del parámetro en mayúsculas
 	a = a.upper()
 	return a
 
+# Si la primera es un número o símbolo, no se muta lo ingresado.
 def funcion2(a):			#Tranforma la primera letra de cada palabra del parametro en mayúscula
 	b =""
 	a = a.split(" ")
@@ -48,18 +52,20 @@ def funcion2(a):			#Tranforma la primera letra de cada palabra del parametro en 
 	b = b.rstrip()				#El rstrip es necesario porque siempre queda un espacio al final
 	return b
 
-def funcion3(a):		#Transforma todas las letras del parametro en mayúsculas
+# Transforma toda las letras en minúsculas
+def funcion3(a):		#Transforma todas las letras del parametro en mayúsculas    # MINÚSCULAS
 	a = a.lower()		
 	return a
 
+#Quita espacios en blanco innecesariosa a la izquierda que puedan traer algun problema
 def funcion4(a):		#Quita los espacios a la izquierda del parametro
 	a = a.lstrip()	
 	return a
-
+#Quita espacios en blanco innecesariosa a la derecha que puedan traer algun problema
 def funcion5(a):		#Quita los espacios a la derecha del parametro
 	a = a.rstrip()
 	return a
-
+# Reemplaza letras, simbolos o números, minúsculas y mayúsculas
 def funcion6(a,b,c):	#Reemplaza todos los caracteres b del parametro a por el caracter c
 	d = ""
 	for i in range(len(a)):  #Analiza letra por letra al parametro a para reconocer los caracteres b
