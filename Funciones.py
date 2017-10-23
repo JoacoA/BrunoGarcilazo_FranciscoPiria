@@ -75,6 +75,7 @@ def funcion6(a,b,c):	#Reemplaza todos los caracteres b del parametro a por el ca
 			d = d + a[i]
 	return d
 
+#Cifrado Cesar, cambia cada letra por otra en el abecedario según una clave de cifrado específica
 def funcion7(a,b):		#Cifra el parametro a con un cifrado Cesar de desplazamiento b
 	abc1 = "abcdefghijklmnñopqrstuvwxyzabcdefghijklmnñopqrstuvwxyz"
 	abc2 = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
