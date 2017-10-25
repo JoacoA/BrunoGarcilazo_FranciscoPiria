@@ -1,7 +1,7 @@
 #FUNCIONES
 
 # Menu principal inicial del codigo.
-# Contiene todas las funciones básicas del programa indicando teniendo cada función un indice
+# Contiene todas las funciones básicas del programa indicando teniendo cada función un indice.
 def MENU():						#Menu principal definido como funcion para no repetirlo constantemente en el codigo
 	print("\n")
 	print("ESTE ES EL MENU DE OPCIONES, DIGITE EL NÚMERO CORRESPONDIENTE PARA REALIZAR LA OPERACION")
