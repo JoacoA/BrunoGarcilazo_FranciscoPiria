@@ -1,5 +1,7 @@
 import Funciones
 
+#Se importan las funciones y se hace el input para que el usuario agregue el texto
+
 print("Inicio del programa")
 print("\n")
 cadena = str(input("Ingrese su texto y presione Enter para continuar: "))
@@ -10,6 +12,8 @@ print("\n")
 Funciones.MENU()
 
 indicacion = int(input("Ingrese la opción que quiera ejecutar: "))
+
+#Se da la opcion al usuario de elegir la opcion que quiera ejecutar
 
 cadena1 = cadena
 
