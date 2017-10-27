@@ -78,6 +78,8 @@ while indicacion >= 0 and indicacion < 9:
     Funciones.MENU()
     indicacion = int(input("Ingrese la opción que quiera ejecutar: "))
 
+    
+#Si la opcion es 9 se devuelve la cadena original y la cadena final    
 
 if indicacion == 9:
     print("\n")
